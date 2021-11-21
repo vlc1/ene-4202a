@@ -9,11 +9,11 @@ using LinearAlgebra, NLsolve
 
 # ╔═╡ 3e5d9fa5-acae-42ab-b40e-e1a197edcad2
 md"""
-# Recherche de la racine d'une fonction
+# Résolution d’équations algébriques
 
-Nous avons vu lors de la première séance le besoin de définir certaines variables implicitement, c'est à dire comme racines de fonctions par exemple par la méthode de Newton.
+Nous avons vu lors de la première séance le besoin de définir certaines variables implicitement, c'est à dire par la résolution d'équations algébriques (par exemple par la méthode de Newton).
 
-Cette méthode n'est cependant pas toujours suffisamment robuste ou rapide, et l'objectif de ce *notebook* est de nous familiariser avec la bibliothèque [NLsolve](https://github.com/JuliaNLSolvers/NLsolve.jl) que nous utiliserons afin de résoudre des équations non-linéaires.
+La méthode de Newton n'est cependant pas suffisamment robuste ou rapide pour une utilisation pratique, et l'objectif de ce *notebook* est de nous familiariser avec la bibliothèque [NLsolve](https://github.com/JuliaNLSolvers/NLsolve.jl) que nous utiliserons afin de résoudre des équations non-linéaires.
 
 L'utilisation de la fonction principale de cette bibliothèque (`nlsolve`) est illustré dans les cellules suivantes, qui décrivent comment obtenir la racine de la function
 ```math
