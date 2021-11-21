@@ -6,6 +6,10 @@ author: Vincent Le Chenadec
 
 # Séance TDR 1 (21/11/2021)
 
+*Notebooks* utilisés :
+
+1. [Introduction à Julia et Pluto](notebook/intro.html).
+
 # Liens utiles
 
 * [Julia](https://julialang.org/) ;
