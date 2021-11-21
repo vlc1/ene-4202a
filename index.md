@@ -10,7 +10,8 @@ author: Vincent Le Chenadec
 
 1. [Introduction à Julia et Pluto](notebook/intro.html) ;
 1. [Algèbre linéaire](notebook/linalg.html) ;
-1. [*Automatic Differentiation*](notebook/ad.html).
+1. [*Automatic Differentiation*](notebook/ad.html) ;
+1. [Résolution d'équations algébriques](notebook/nlsolve.html).
 
 # Liens utiles
 
