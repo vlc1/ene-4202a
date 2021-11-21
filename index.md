@@ -1,6 +1,6 @@
 ---
 title: Méthodes numériques pour l'Énergétique et la Thermique
-date: ENE-4202A 2021/2022
+date: 11/01/2021
 author: Vincent Le Chenadec
 ...
 
