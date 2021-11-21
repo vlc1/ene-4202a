@@ -9,7 +9,8 @@ author: Vincent Le Chenadec
 *Notebooks* utilisés :
 
 1. [Introduction à Julia et Pluto](notebook/intro.html) ;
-1. [Algèbre linéaire](notebook/linalg.html).
+1. [Algèbre linéaire](notebook/linalg.html) ;
+1. [*Automatic Differentiation*](notebook/ad.html).
 
 # Liens utiles
 
