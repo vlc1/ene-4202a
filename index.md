@@ -8,10 +8,10 @@ author: Vincent Le Chenadec
 
 *Notebooks* utilisés :
 
-1. [Introduction à Julia et Pluto](notebook/intro.html) ;
-1. [Algèbre linéaire](notebook/linalg.html) ;
-1. [*Automatic Differentiation*](notebook/ad.html) ;
-1. [Résolution d'équations algébriques](notebook/algebraic.html).
+1. [Introduction à Julia et Pluto](notebook/intro.html) ([correction](solution/intro.html)) ;
+1. [Algèbre linéaire](notebook/linalg.html) ([correction](solution/linalg.html)) ;
+1. [*Automatic Differentiation*](notebook/ad.html) ([correction](solution/ad.html)) ;
+1. [Résolution d'équations algébriques](notebook/algebraic.html) ([correction](solution/algebraic.html)).
 
 # Liens utiles
 
