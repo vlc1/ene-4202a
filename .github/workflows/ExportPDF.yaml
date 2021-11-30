@@ -34,6 +34,11 @@ jobs:
           root_file: "*.tex"
           glob_root_file: true
 
+      - name: Install git
+        run: |
+          apt-get update
+          apt-get install git-all
+
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
