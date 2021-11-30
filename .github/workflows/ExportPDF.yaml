@@ -34,10 +34,27 @@ jobs:
           root_file: "*.tex"
           glob_root_file: true
 
-      - name: Install git
-        run: |
-          sudo apt-get update
-          sudo apt-get install git-all
+      - name: artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: files
+          path: output/*.pdf
+
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+
+      - name: artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: files
+          path: output
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
