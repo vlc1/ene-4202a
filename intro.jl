@@ -1,13 +1,12 @@
 ### A Pluto.jl notebook ###
-# v0.17.1
+# v0.16.1
 
 using Markdown
 using InteractiveUtils
 
 # ╔═╡ 526aa97a-f365-11ea-184e-81499b2a3ad2
 md"""
-L'objectif de ce notebook Pluto (disponible
-[ici](https://github.com/vlc1/Mn3.jl/blob/master/notebook/tp/1/part1.jl)) est l'installation et la prise en main de
+L'objectif de ce notebook Pluto est l'installation et la prise en main de
 
 1. Julia et sa console ;
 1. Les notebooks réactifs de `Pluto`.
@@ -101,9 +100,26 @@ end
 # ╔═╡ ddea46f4-f347-11ea-3714-b5212290ca66
 myexp(1., 4), exp(1.), Float64(ℯ)
 
+# ╔═╡ 00000000-0000-0000-0000-000000000001
+PLUTO_PROJECT_TOML_CONTENTS = """
+[deps]
+"""
+
+# ╔═╡ 00000000-0000-0000-0000-000000000002
+PLUTO_MANIFEST_TOML_CONTENTS = """
+# This file is machine-generated - editing it directly is not advised
+
+julia_version = "1.7.0-rc1"
+manifest_format = "2.0"
+
+[deps]
+"""
+
 # ╔═╡ Cell order:
 # ╟─526aa97a-f365-11ea-184e-81499b2a3ad2
 # ╠═dfb0b044-f347-11ea-1dee-2d161f8aa0c8
 # ╠═e8c0f304-f347-11ea-20c2-7f3c5b9327f7
 # ╠═bfe43eb2-f347-11ea-257a-e5ebe3e91eb9
 # ╠═ddea46f4-f347-11ea-3714-b5212290ca66
+# ╟─00000000-0000-0000-0000-000000000001
+# ╟─00000000-0000-0000-0000-000000000002
