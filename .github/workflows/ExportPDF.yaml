@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
 
-      image: docker://pandoc/core:2.9
+      image: docker://pandoc/latex:2.9
       options: --entrypoint=sh
 
     steps:
@@ -23,16 +23,16 @@ jobs:
       - name: create output directories
         run: mkdir output
 
-      - name: convert md to tex
+      - name: convert md to pdf
         run: |
-          find ./ -iname '*.md' -type f -exec sh -c 'pandoc --filter pandoc-crossref -s -N ${0} -o output/$(basename $0 .md).tex' {} \;
-
-      - name: LaTeX
-        uses: xu-cheng/latex-action@v2
-        with:
-          working_directory: output
-          root_file: "*.tex"
-          glob_root_file: true
+          find ./ -iname '*.md' -type f -exec sh -c 'pandoc --filter pandoc-crossref -s -N ${0} -o output/$(basename $0 .md).pdf' {} \;
+#
+#      - name: LaTeX
+#        uses: xu-cheng/latex-action@v2
+#        with:
+#          working_directory: output
+#          root_file: "*.tex"
+#          glob_root_file: true
 
       - name: artifacts
         uses: actions/upload-artifact@v2
