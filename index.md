@@ -19,7 +19,8 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 
 *Notebooks* utilisés :
 
-1. [Résolution du problème de Cauchy](notebook/cauchy.html).
+1. [Résolution du problème de Cauchy](notebook/cauchy.html) ;
+1. [Schémas de Runge-Kutta, modèle de Lotka-Volterra et de Blasius](notebook/lotka-blasius.html).
 
 # Liens utiles
 
