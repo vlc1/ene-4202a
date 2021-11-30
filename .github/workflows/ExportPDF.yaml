@@ -41,6 +41,7 @@ jobs:
           path: output/*.pdf
 
   publish:
+    needs: convert-via-pandoc
     runs-on: ubuntu-latest
 
     steps:
