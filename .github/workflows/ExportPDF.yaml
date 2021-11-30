@@ -15,30 +15,30 @@ jobs:
 
     steps:
 
-    - name: checkout
-      uses: actions/checkout@v2
-      with:
-        persist-credentials: false
+      - name: checkout
+        uses: actions/checkout@v2
+        with:
+          persist-credentials: false
 
-    - name: create output directories
-      run: mkdir output
+      - name: create output directories
+        run: mkdir output
 
-    - name: convert md to tex
-      run: |
-        find ./ -iname '*.md' -type f -exec sh -c 'pandoc -s -N ${0} -o output/$(basename $0 .md).tex' {} \;
+      - name: convert md to tex
+        run: |
+          find ./ -iname '*.md' -type f -exec sh -c 'pandoc -s -N ${0} -o output/$(basename $0 .md).tex' {} \;
 
-    - name: LaTeX
-      uses: xu-cheng/latex-action@v2
-      with:
-        working_directory: output
-        root_file: "*.tex"
-        glob_root_file: true
+      - name: LaTeX
+        uses: xu-cheng/latex-action@v2
+        with:
+          working_directory: output
+          root_file: "*.tex"
+          glob_root_file: true
 
-    - name: Deploy to gh-pages
-      uses: JamesIves/github-pages-deploy-action@releases/v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        branch: gh-pages
-        folder: output
-        target_folder: exercices
+      - name: Deploy to gh-pages
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: output
+          target_folder: exercices
 
