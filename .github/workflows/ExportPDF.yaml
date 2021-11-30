@@ -36,8 +36,8 @@ jobs:
 
       - name: Install git
         run: |
-          apt-get update
-          apt-get install git-all
+          sudo apt-get update
+          sudo apt-get install git-all
 
       - name: Deploy to gh-pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
