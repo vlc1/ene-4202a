@@ -9,11 +9,11 @@ header-includes:
 Soit le problème de Cauchy suivant :
 $$
 \forall t > 0, \quad y' \left ( t \right ) = t + y \left ( t \right )
-$$ {#eq:edo}
+$$
 avec la condition initiale
 $$
 y \left ( 0 \right ) = 1.
-$$ {#eq:ci}
+$$
 
 1. Trouver la solution exacte de ce problème.
 1. Appliquer la méthode explicite d'Euler à ce problème, avec $\tau = 0.1$ puis évaluer la solution en $t = 0.3$. Comparer à la solution exacte.
