@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
 
-      image: docker://pandoc/crossref:2.9
+      image: docker://pandoc/crossref
       options: --entrypoint=sh
 
     steps:
