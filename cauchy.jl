@@ -61,8 +61,9 @@ getproperty(nlsolve(example!, [0.1; 1.2]), :zero)
 
 # ╔═╡ bea20ce9-88ff-45e4-bb5a-494c4d2d19c2
 # Q1 -- À MODIFIER
-function kepler!(res, x)
-	res[1] = x[1]
+function pendulum!(res, x)
+    res[1] = x[1]
+    res[2] = x[2]
 	nothing
 end
 
