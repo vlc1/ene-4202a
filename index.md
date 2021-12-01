@@ -20,12 +20,12 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 ## Résolution du problème de Cauchy par schémas à pas unique.
 
 1. [Feuille d'exercices](exercices/single-step.pdf) ;
-1. [*Notebook*](notebook/cauchy.html).
+1. [*Notebook*](notebook/cauchy.html) ([correction](solution/cauchy.html)).
 
 ## Schémas de Runge-Kutta, modèle de Lotka-Volterra et de Blasius
 
 1. [Feuille d'exercices](exercices/rk-blasius.pdf) ;
-1. [*Notebook*](notebook/lotka-blasius.html).
+1. [*Notebook*](notebook/lotka-blasius.html) ([correction](solution/lotka-blasius.html)).
 
 # Liens utiles
 
