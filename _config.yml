@@ -2,5 +2,5 @@ title: ENE-4202a
 description: Méthodes numériques pour l'Énergétique et la Thermique
 url: https://vlc1.github.io/
 baseurl: "/ene-4202a"
-remote_theme: vlc1/minimal
+remote_theme: vlc1/minimal@master
 
