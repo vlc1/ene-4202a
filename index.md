@@ -6,7 +6,7 @@ author: Vincent Le Chenadec
 
 Les documents présentés en cours sont disponible [ici](https://drive.google.com/drive/folders/1e_UG9Z_NhOAYl4QfcSyKJx7PBNobB9Ir?usp=sharing).
 
-Une équation $$\latex$$:
+Une équation $$\LaTeX$$:
 
 $$
 \exp \colon x \mapsto \sum _ {n = 0} ^ \infty \frac{x ^ n}{n!}.
