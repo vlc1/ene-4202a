@@ -20,7 +20,7 @@ $$
 \forall i = 1, 2\cdots, s, \quad k_i = f \left ( t_n + c_i \tau, y _ n + \tau \sum_{j = 1} ^ s a_{ij} k_j \right ).
 $$
 
-1. Expliciter la formule de mise à jour (et les variables intermédiaires $$k_1$$ et $$k_2$$) correspondant aux coefficients suivants
+* Expliciter la formule de mise à jour (et les variables intermédiaires $$k_1$$ et $$k_2$$) correspondant aux coefficients suivants
 
 $$
 A_2 = \left ( \begin{matrix}
@@ -37,7 +37,7 @@ A_2 = \left ( \begin{matrix}
 \end{matrix} \right ).
 $$
 
-1. Expliciter la formule de mise à jour (et les variables intermédiaires $$k_1$$, $$k_2$$, $$k_3$$ et $$k_4$$) correspondant aux coefficients suivants
+* Expliciter la formule de mise à jour (et les variables intermédiaires $$k_1$$, $$k_2$$, $$k_3$$ et $$k_4$$) correspondant aux coefficients suivants
 
 $$
 A_4 = \left ( \begin{matrix}
@@ -80,8 +80,8 @@ u' \left ( \infty \right ) & = 1.
 \end{aligned} \right .
 $$
 
-1. Quel est le degré de cette EDO ? La réécrire sous la forme d'un système d'EDO d'ordre 1.
-1. Montrer que l'équation de Blasius et les conditions en $$0$$ sont inchangées par la transformation ($$c \ne 0$$)
+* Quel est le degré de cette EDO ? La réécrire sous la forme d'un système d'EDO d'ordre 1.
+* Montrer que l'équation de Blasius et les conditions en $$0$$ sont inchangées par la transformation ($$c \ne 0$$)
 
 $$
 \begin{aligned}
@@ -90,7 +90,7 @@ $$
 \end{aligned}
 $$
 
-3. $$\overline{u}$$ est donc soumis à la même équation que $$u$$, à l'exception de la condition en $$\infty$$ qui est remplacée par :
+$$\overline{u}$$ est donc soumis à la même équation que $$u$$, à l'exception de la condition en $$\infty$$ qui est remplacée par :
 
 $$
 \overline{u}'' \left ( 0 \right ) = 1.
@@ -102,7 +102,7 @@ $$
 \alpha = \overline{u}' \left ( \infty \right ).
 $$
 
-Montrer que le choix de la constante $$c = \sqrt{\alpha}$$ mène à
+* Montrer que le choix de la constante $$c = \sqrt{\alpha}$$ mène à
 
 $$
 u' \left ( \infty \right ) = 1.
