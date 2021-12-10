@@ -31,7 +31,7 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 
 ## Résolution de problèmes aux limites par la méthode de tir
 
-1. [*Notebook*](notebook/shooting.html).
+1. [*Notebook*](notebook/shooting.html) ([correction](solution/shooting.html)).
 
 ## Schémas de Runge-Kutta et stabilité
 
