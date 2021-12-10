@@ -27,6 +27,21 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 1. [Feuille d'exercices](exercices/rk-blasius.html) ;
 1. [*Notebook*](notebook/lotka-blasius.html) ([correction](solution/lotka-blasius.html)).
 
+# Séance TDR 3 (10/12/2021)
+
+## Résolution de problèmes aux limites par la méthode de tir
+
+1. [*Notebook*](notebook/shooting.html).
+
+## Schémas de Runge-Kutta et stabilité
+
+1. Voir premier exercice de cette [page](exercices/rk-blasius.html) ;
+1. [*Notebook*](notebook/stability.html).
+
+## Ordre d'un schéma
+
+1. [*Notebook*](notebook/accuracy.html).
+
 # Liens utiles
 
 * [Julia](https://julialang.org/) ;
