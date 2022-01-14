@@ -42,6 +42,12 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 
 1. [*Notebook*](notebook/accuracy.html).
 
+# Séance TDR 4 (14/01/2022)
+
+## Résolution de problèmes hyperboliques
+
+1. [*Notebook*](notebook/hyperbolic.html).
+
 # Liens utiles
 
 * [Julia](https://julialang.org/) ;
