@@ -44,9 +44,10 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 
 # Séance TDR 4 (14/01/2022)
 
-## Résolution de problèmes hyperboliques
+Résolution d'équations aux dérivées partielles
 
-1. [*Notebook*](notebook/hyperbolic.html).
+1. [*Notebook*](notebook/elliptic.html) pour problèmes elliptiques ;
+1. [*Notebook*](notebook/hyperbolic.html) pour problèmes hyperboliques.
 
 # Liens utiles
 
