@@ -86,7 +86,7 @@ md"""
 ```
 et de discrétiser la dérivée spatiale par la formule de différence finie
 ```math
-\left . \frac{\partial u}{\partial x} \right \vert _ {t, x _ i} \simeq \frac{u _ {i} \left ( t \right ) - u _ {i - 1} \left ( t \right )}{h}
+\left . \frac{\partial u}{\partial x} \right \vert _ {t, x _ i} \simeq \frac{U _ {i} \left ( t \right ) - U _ {i - 1} \left ( t \right )}{h}
 ```
 ce qui permet d'écrire l'équation de transport sur la forme
 ```math
