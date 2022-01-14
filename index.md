@@ -46,7 +46,7 @@ Les documents présentés en cours sont disponible [ici](https://drive.google.co
 
 Résolution d'équations aux dérivées partielles
 
-1. [*Notebook*](notebook/elliptic.html) pour problèmes elliptiques ;
+1. [*Notebook*](notebook/elliptic.html) pour problèmes elliptiques ([correction](solution/elliptic.html)) ;
 1. [*Notebook*](notebook/hyperbolic.html) pour problèmes hyperboliques.
 
 # Liens utiles
